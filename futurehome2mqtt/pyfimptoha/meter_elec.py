@@ -28,7 +28,7 @@ def meter_elec_sensor(
     Creates meter_elec sensors in Home Assistant based on FIMP services
     """
 
-    sup_units: list = device["services"][service_name]["props"]["sup_units"]
+    sup_units: list = device["services"][service_name]["props"].get("sup_units") or [""]
     identifier_for_unit = identifier
     statuses = []
 
