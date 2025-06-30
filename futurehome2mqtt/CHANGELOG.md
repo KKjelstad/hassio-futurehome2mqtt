@@ -1,3 +1,6 @@
+## 0.3.9
+- Fix for sup_units
+
 ## 0.3.8
 
 - Added option to select if you want to include or exclude mode & shortcuts

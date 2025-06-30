@@ -1,5 +1,5 @@
 {
     "name": "futurehome2mqtt",
-    "url": "https://github.com/espenhaland/hassio-futurehome2mqtt",
-    "maintainer": "Espen Håland <espen+github-contact@haland.io>"
+    "url": "https://github.com/KKjelstad/hassio-futurehome2mqtt",
+    "maintainer": "Kristian Kjelstad <kristian@kjelstad.com>"
 }

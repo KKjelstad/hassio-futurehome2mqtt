@@ -1,6 +1,6 @@
 {
     "name": "Futurehome FIMP integration",
-    "version": "0.3.8",
+    "version": "0.3.9",
     "slug": "futurehome_fimp",
     "description": "Futurehome FIMP integration",
     "url": "https://github.com/espenhaland/hassio-futurehome2mqtt",
