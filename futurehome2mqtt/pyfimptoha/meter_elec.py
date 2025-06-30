@@ -115,7 +115,7 @@ def meter_elec_ext_sensor(
     """
 
     # Create extended meter_elec sensors
-    sup_extended_vals: list = device["services"][service_name]["props"]["sup_extended_vals"]
+    sup_extended_vals: list = device["services"][service_name]["props"].get("sup_extended_vals", [])
     identifier_for_ext_vals = identifier
     for ext_val in sup_extended_vals:
         identifier = f"{identifier_for_ext_vals}_{ext_val}"
